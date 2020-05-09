@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* 
+grn: #67b26f
+blu:  #4ca2cd
+mid: #5aaa9c
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    color: #444;
+    font-family: Roboto;
+    padding: 100px;
+    background: linear-gradient(to bottom right,#67b267,#4ca2cd);
+height: 100vh;
+}
+.pizza {
+    display: flex;
+}
+
+.pizza__img{
+    width: 100%;
+}
